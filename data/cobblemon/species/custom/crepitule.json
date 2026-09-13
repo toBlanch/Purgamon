@@ -117,6 +117,10 @@
     "32:firespin",
     "40:overheat",
     "48:fireblast",
+    "egg:sleeppowder",
+    "egg:defog",
+    "egg:partingshot",
+    "egg:rest",
     "tm:acid",
     "tm:acidspray",
     "tm:bugbuzz",
@@ -138,11 +142,7 @@
     "tm:skittersmack",
     "tm:smog",
     "tm:uturn",
-    "tm:trailblaze",
-    "egg:sleeppowder",
-    "egg:defog",
-    "egg:partingshot",
-    "egg:rest"
+    "tm:trailblaze"
   ],
   "evolutions": [
     {
