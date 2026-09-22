@@ -1,0 +1,88 @@
+# Purgamon Fakemon Collection
+A minecraft data pack containing a collection of fan made pokemon. It's not really meant to be public or anything but I want to share the repo with everyone involved and I have to make the project public to do that.
+
+The resources for this pack are stored in the [assets repo](https://github.com/toBlanch/Purgamon-Assets)
+
+# New Additions
+## Pokemon
+### Averi, Averon and Averist
+* Reigonal birds that gain power based on the happiness of those around them
+* Flying normal/psychic fast special damage/utility mon with low defences
+* Custom ability - Second Wind
+    * When switching out, set 2 turns of tailwind on the user's side
+* Custom move - Feather Barrage
+    * A flying special move. The user hits as many times as it can before the opponent moves, hitting 1-5 times based on the opponent's speed and if the opponent will / already has moved
+    * Distributed to fast special flying types with feathers
+
+### Baitellapup, Lupsostrial, and Selcanirave
+* UNFINISHED
+* Music skateboarding doggos
+* Little is known aside from the dex entries
+
+### Ryuka, Rymodel and Ryunit:
+* Mecha Kaiju (aka balancing nightmare)
+* Steel Electric special attacker with a limited special movepool and decenty large physical movepool
+* Custom ability - Back Unit
+    * If the user loses its electric type, it activates its berserk form. In this case swapping its special and physical stats
+* Custom move - Absolute Salvo
+    * A special electric dual hitting move. After the first hit the user loses its electric type and this move becomes a physical move
+
+### Budjolt, Shockatiel and Raucatoo:
+* Reigonal birds famous for their electric powers, loudness and their attention seeking nature.
+* Electric flying fast special glass cannons
+* Punk rock, Lightning rod or Electromorphis with an electric and sound based movepool
+
+### Crepitule, Flammentle and Blazeufel
+* A bug powered by flames stored in its abdomen that later become infused with poison
+* I'm gonna be honest here I'm not really sure of the archetype. I guess balance with the ability to spread poison? Leans slightly more into special than physical
+* Custom ability - Chemical
+    * The user's fire type attacks have a 30% chance of inflicting normal poison. I'm told that this ability was made before Toxic Chain existed
+
+
+### Geomite, Arachnolith and Terrachne
+* A small bug that grows up to be a rock reinforced ambushing menace that traps prey with its crystal webs. They grow up so fast
+* Rock Bug, decently tanky defensive trapper with setup moves.
+* Custom move - Crystalline Snare
+    * Traps the opponent for 3 turns, decreasing the opponent's defence and special defence every turn the opponent is trapped.
+
+### Stril, Nospera, Atharfang and Vactua
+* UNFINISHED
+* All knowing mysterious bird things. Except the first stage. The first stage is stupid
+* Having 3 different evolutions, it's difficult to talk about an archetype, but I'm honestly not too sure what their archetype is anyway.
+* Custom abilities, Ataraxia, Materia and Possession
+    * All buff 2 of the user's stats by 50%, but is disabled if the user gets a stat boost or status effect
+    * Ataraxia buffs both special stats
+    * Materia buffs both physical stats
+    * Possession buffs the 2 highest stats (not hp) of the user's final party member (using Illusion's targetting)
+
+### Larvibon, Skellicraw and Bonemare
+* If you bury bones in the ground and give them food and water, they'll turn into this. And start ambushing people.
+* Dark Ground physical attacker with similar stats to Ryunit, but somehow not under the radar of our balance team
+* Custom move - Skeletal Strike
+    * UNFINISHED. The current plan was for it to be a protect that sets a new hazard if hit with a contact move, but due to technical limitations this is not possible since the hazard would be impossible to remove. Why does Rapid Spin, Defog etc all have their own hard coded list of hazards they remove?
+
+### Planned
+* 5 more mons are planned to be submitted
+
+## Moves
+All moves have been distributed thematically, but I'm not repeating everything they've been distributed to here
+
+## Boulder Bash
+* 80bp accuracy physical rock move
+* Now you don't need to rely on rock slide!
+
+## Exhaust
+* 60bp fire physical move
+* Allows the user to pivot (u-turn style) and has a 20% burn chance
+* Originally also decreased the opponent's defense and special defense by 1 and had a 10% higher burn chance
+
+## Skyward Strike
+* What if dual wingbeat hit once, was 100% accurate and had 5 less total bp
+
+## Slag Rush
+* Fire type aqua jet
+
+## Updraft
+* Originally meant to be Averist's signature, but I wanted to make something different
+* 40bp flying special pivot move
+* Lowers the opponent's special defense by 1
