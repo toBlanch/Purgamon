@@ -8,9 +8,6 @@
 * Spawn data - In progress
 * Non battle data - In progress
 
-# Larvibon Skellicraw Bonemare
-* Moves - In progress
-
 # Unsubmitted fakemon
 * Rcrawgrunt Rcrawuit Rcawboss
 * Fauxninoko Pseudolisk Basiligonyx
@@ -19,8 +16,8 @@
 * Floette ?
 
 # Other
-## Spawn
-* Look into ispokesnack in spawn data
-
 ## Moves
 * Open second round of moves close to Server release - BLOCKED
+* Revisit if Slag Rush and Skyward Strike need secondary effects
+* Tidy up moveset for Bonemare and pre evolutions
+* Finalise an implementation of Skeletal Stance

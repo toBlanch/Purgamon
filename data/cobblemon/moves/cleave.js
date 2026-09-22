@@ -1,5 +1,4 @@
 ({
-    num: 203,
     accuracy: true,
     basePower: 0,
     category: "Status",
