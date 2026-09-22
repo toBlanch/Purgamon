@@ -3,6 +3,17 @@ A minecraft data pack containing a collection of fan made pokemon. It's not real
 
 The resources for this pack are stored in the [assets repo](https://github.com/toBlanch/Purgamon-Assets)
 
+# Installation instructions
+## Install to a world / server
+Download the latest source code from the [releases](https://github.com/toBlanch/Purgamon/releases)
+* Extract the folder
+* Place the extracted folder in your world's datapacks folder
+
+## Installation for a client / user
+* Download the latest source code from the [assets releases](https://github.com/toBlanch/Purgamon-Assets/releases)
+* Extract the folder
+* Place the extracted folder in your Resource Packs folder
+
 # New Additions
 ## Pokemon
 ### Averi, Averon and Averist
