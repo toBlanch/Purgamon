@@ -28,7 +28,7 @@ Download the latest source code from the [releases](https://github.com/toBlanch/
 ### Baitellapup, Lupsostrial, and Selcanirave
 * UNFINISHED
 * Music skateboarding doggos
-* Little is known aside from the dex entries
+* Little is known about this species...
 
 ### Ryuka, Rymodel and Ryunit:
 * Mecha Kaiju (aka balancing nightmare)
@@ -69,7 +69,7 @@ Download the latest source code from the [releases](https://github.com/toBlanch/
 ### Larvibon, Skellicraw and Bonemare
 * If you bury bones in the ground and give them food and water, they'll turn into this. And start ambushing people.
 * Dark Ground physical attacker with similar stats to Ryunit, but somehow not under the radar of our balance team
-* Custom move - Skeletal Strike
+* Custom move - Skeletal Stance
     * UNFINISHED. The current plan was for it to be a protect that sets a new hazard if hit with a contact move, but due to technical limitations this is not possible since the hazard would be impossible to remove. Why does Rapid Spin, Defog etc all have their own hard coded list of hazards they remove?
 
 ### Planned

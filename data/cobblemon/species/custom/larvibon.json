@@ -85,7 +85,6 @@
     ]
   },
   "moves": [
-    "1:skeletalstance",
     "1:bite",
     "1:mudslap",
     "1:protect",
@@ -106,7 +105,6 @@
     "42:jawlock",
     "45:earthquake",
     "48:doubleedge",
-    "1:skeletalstance",
     "tm:ancientpower",
     "tm:block",
     "tm:bodypress",

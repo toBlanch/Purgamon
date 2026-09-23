@@ -1,5 +1,5 @@
 {
-  "target": "cobblemon:probopass_moves.json",
+  "target": "cobblemon:probopass",
   "moves": [
     "1:magnetrise",
     "1:gravity",
