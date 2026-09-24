@@ -49,7 +49,10 @@
       },
       onHit(target, source, move) {
         if (move.isZOrMaxPowered && this.checkMoveMakesContact(move, source, target)) {
-          source.trySetStatus("psn", target);
+          for (const side of target.side.foeSidesWithConditions()) {
+            side.addSideCondition("bonefragments");
+          }
+          this.boost({ def: -1, }, target);
         }
       }
     },
