@@ -12,6 +12,12 @@
         this.add("-sidestart", side, "move: Bone Fragments");
         this.effectState.time = 3;
       },
+      onSideRestart(side) {
+        if (this.effectState.time >= 3)
+          return false;
+        this.add("-sidestart", side, "Bone Fragments");
+        this.effectState.time = 3;
+      },
       onEntryHazard(pokemon) {
         if (!pokemon.isGrounded())
           return;
