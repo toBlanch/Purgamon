@@ -17,38 +17,16 @@
     condition: {
       duration: 1,
       onStart(target) {
-        this.add("-singleturn", target, "move: Protect");
+        this.add("-singleturn", target, "move: Skeletal Stance");
       },
-      onTryHitPriority: 3,
-      onTryHit(target, source, move) {
-        if (!move.flags["protect"]) {
-          if (["gmaxoneblow", "gmaxrapidflow"].includes(move.id))
-            return;
-          if (move.isZ || move.isMax)
-            target.getMoveHitData(move).zBrokeProtect = true;
-          return;
+      onDamagePriority: -10,
+      onDamage(damage, target, source, effect) {
+        if (effect?.effectType === "Move") {
+          return damage * 0.2;
         }
-        if (move.smartTarget) {
-          move.smartTarget = false;
-        } else {
-          this.add("-activate", target, "move: Protect");
-        }
-        const lockedmove = source.getVolatile("lockedmove");
-        if (lockedmove) {
-          if (source.volatiles["lockedmove"].duration === 2) {
-            delete source.volatiles["lockedmove"];
-          }
-        }
-        if (this.checkMoveMakesContact(move, source, target)) {
-          for (const side of target.side.foeSidesWithConditions()) {
-            side.addSideCondition("bonefragments");
-          }
-          this.boost({ def: -1, }, target);
-        }
-        return this.NOT_FAIL;
       },
       onHit(target, source, move) {
-        if (move.isZOrMaxPowered && this.checkMoveMakesContact(move, source, target)) {
+        if (this.checkMoveMakesContact(move, source, target)) {
           for (const side of target.side.foeSidesWithConditions()) {
             side.addSideCondition("bonefragments");
           }
