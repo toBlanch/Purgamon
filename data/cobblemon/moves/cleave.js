@@ -22,10 +22,12 @@
       onDamagePriority: -10,
       onDamage(damage, target, source, effect) {
         if (effect?.effectType === "Move") {
-          this.add("-activate", target, "move: Cleave");
-          this.boost({ def: 1, spd: 1 }, target);
           return damage * 0.5;
         }
+      },
+      onDamagingHit(damage, target, source, effect) {
+        this.add("-activate", target, "move: Cleave");
+        this.boost({ def: 1, spd: 1 }, target);
       }
     },
     secondary: null,

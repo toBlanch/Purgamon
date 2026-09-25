@@ -36,7 +36,7 @@
     },
     secondary: null,
     target: "self",
-    type: "Poison",
+    type: "Ground",
     zMove: { boost: { def: 1 } },
     contestType: "Tough"
 })

@@ -1,43 +1,43 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 1522,
-  "name": "Vactua",
+  "nationalPokedexNumber": 1521,
+  "name": "Atharfang",
   "primaryType": "Steel",
-  "secondaryType": "Ghost",
+  "secondaryType": "Psychic",
   "maleRatio": 0.5,
-  "height": 150,
+  "height": 13,
   "weight": 1,
   "pokedex": [
-    "cobblemon.species.vactua.desc"
+    "cobblemon.species.atharfang.desc"
   ],
   "labels": [
     "genpurg"
   ],
   "aspects": [],
   "abilities": [
-    "possession"
+    "ataraxia"
   ],
   "eggGroups": [
     "mineral"
   ],
   "baseStats": {
-    "hp": 70,
-    "attack": 70,
-    "defence": 70,
-    "special_attack": 70,
-    "special_defence": 70,
-    "speed": 70
+    "hp": 90,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 110
   },
   "evYield": {
-    "hp": 3,
+    "hp": 0,
     "attack": 0,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
-    "speed": 0
+    "speed": 3
   },
-  "baseExperienceYield": 222,
-  "experienceGroup": 1,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_slow",
   "catchRate": 1,
   "eggCycles": 1,
   "baseFriendship": 1,
@@ -71,15 +71,14 @@
   "moves": [
     "1:tackle",
     "tm:airslash",
-    "tm:bittermalice",
-    "tm:bravebird",
+    "tm:dazzlinggleam",
     "tm:defog",
     "tm:flashcannon",
-    "tm:ironhead",
-    "tm:poltergeist",
+    "tm:lightscreen",
+    "tm:moonblast",
+    "tm:psychic",
     "tm:roost",
-    "tm:shadowball",
-    "tm:shadowclaw",
+    "tm:scald",
     "tm:uturn"
   ]
 }
