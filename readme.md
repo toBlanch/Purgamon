@@ -39,7 +39,7 @@ Download the latest source code from the [releases](https://github.com/toBlanch/
     * A special electric dual hitting move. After the first hit the user loses its electric type and this move becomes a physical move
 
 ### Budjolt, Shockatiel and Raucatoo:
-* Reigonal birds famous for their electric powers, loudness and their attention seeking nature.
+* Reigonal birds famous for their electric powers, loudness and their attention seeking nature
 * Electric flying fast special glass cannons
 * Punk rock, Lightning rod or Electromorphis with an electric and sound based movepool
 
@@ -52,25 +52,30 @@ Download the latest source code from the [releases](https://github.com/toBlanch/
 
 ### Geomite, Arachnolith and Terrachne
 * A small bug that grows up to be a rock reinforced ambushing menace that traps prey with its crystal webs. They grow up so fast
-* Rock Bug, decently tanky defensive trapper with setup moves.
+* Rock Bug, decently tanky defensive trapper with setup moves
 * Custom move - Crystalline Snare
-    * Traps the opponent for 3 turns, decreasing the opponent's defence and special defence every turn the opponent is trapped.
+    * Traps the opponent for 3 turns, decreasing the opponent's defence and special defence every turn the opponent is trapped
 
 ### Stril, Nospera, Atharfang and Vactua
 * UNFINISHED
 * All knowing mysterious bird things. Except the first stage. The first stage is stupid
-* Having 3 different evolutions, it's difficult to talk about an archetype, but I'm honestly not too sure what their archetype is anyway.
+* Having 3 different evolutions, it's difficult to talk about an archetype, but I'm honestly not too sure what their archetype is anyway
 * Custom abilities, Ataraxia, Materia and Possession
     * All buff 2 of the user's stats by 50%, but is disabled if the user gets a stat boost or status effect
-    * Ataraxia buffs both special stats
-    * Materia buffs both physical stats
+    * Ataraxia buffs both special stats.
+    * Materia buffs both physical stats.
     * Possession buffs the 2 highest stats (not hp) of the user's final party member (using Illusion's targetting)
 
 ### Larvibon, Skellicraw and Bonemare
-* If you bury bones in the ground and give them food and water, they'll turn into this. And start ambushing people.
+* If you bury bones in the ground and give them food and water, they'll turn into this. And start ambushing people
 * Dark Ground physical attacker with similar stats to Ryunit, but somehow not under the radar of our balance team
 * Custom move - Skeletal Stance
-    * UNFINISHED. The current plan was for it to be a protect that sets a new hazard if hit with a contact move, but due to technical limitations this is not possible since the hazard would be impossible to remove. Why does Rapid Spin, Defog etc all have their own hard coded list of hazards they remove?
+    * Acts similarly to Protect, but only grants 80% DR.
+    * If the user is hit by a contact move, set Bone Fragments on the opponent's side and reduce the user's defence by 1 stage
+* Custom hazard - Bone Fragments
+    * Stealth Rock, but if it was ground type
+    * After dealing damage 3 times, it gets removed
+    * Cannot be cleared by hazard clearing moves. Why does Rapid Spin, Defog etc all have their own hard coded list of hazards they remove?
 
 ### Planned
 * 5 more mons are planned to be submitted
@@ -82,10 +87,14 @@ All moves have been distributed thematically, but I'm not repeating everything t
 * 80bp accuracy physical rock move
 * Now you don't need to rely on rock slide!
 
+## Cleave
+* Acts similar to Protect, but only grants 50% DR
+* If hit, increases the user's defence and special defence by 1
+
 ## Exhaust
 * 60bp fire physical move
 * Allows the user to pivot (u-turn style) and has a 20% burn chance
-* Originally also decreased the opponent's defense and special defense by 1 and had a 10% higher burn chance
+* Originally also decreased the opponent's defence and special defence by 1 and had a 10% higher burn chance
 
 ## Skyward Strike
 * What if dual wingbeat hit once, was 100% accurate and had 5 less total bp

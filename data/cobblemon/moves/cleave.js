@@ -24,7 +24,7 @@
         if (effect?.effectType === "Move") {
           this.add("-activate", target, "move: Cleave");
           this.boost({ def: 1, spd: 1 }, target);
-          return damage * 0.75;
+          return damage * 0.5;
         }
       }
     },
