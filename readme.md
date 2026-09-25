@@ -84,7 +84,8 @@ Download the latest source code from the [releases](https://github.com/toBlanch/
 All moves have been distributed thematically, but I'm not repeating everything they've been distributed to here
 
 ## Boulder Bash
-* 80bp accuracy physical rock move
+* 100bp 100 accuracy physical rock move
+* The user takes 1.5x damage until they next move
 * Now you don't need to rely on rock slide!
 
 ## Cleave
@@ -97,7 +98,7 @@ All moves have been distributed thematically, but I'm not repeating everything t
 * Originally also decreased the opponent's defence and special defence by 1 and had a 10% higher burn chance
 
 ## Skyward Strike
-* What if dual wingbeat hit once, was 100% accurate and had 5 less total bp
+* 70bp physical flying move with a high crit chance
 
 ## Slag Rush
 * Fire type aqua jet
