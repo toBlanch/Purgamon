@@ -14,7 +14,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "runaway"
+    "blaze",
+    "h:deadlockprotocol"
   ],
   "eggGroups": [
     "field"

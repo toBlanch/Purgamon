@@ -28,7 +28,13 @@ Download the latest source code from the [releases](https://github.com/toBlanch/
 ### Baitellapup, Lupsostrial, and Selcanirave
 * UNFINISHED
 * Music skateboarding doggos
-* Little is known about this species...
+* Custom ability - Deadlock protocol
+    * Using a sound based move traps all pokemon until the move has ended, as long as the pokemon with the ability is alive
+    * Normal sound moves like Hyper Voice trap for 1 turn (using Glaive Rush's logic)
+    * This also covers multi turn moves like Uproar or Sound Crash since they're reused every turn
+    * All pokemon with the Perish Song effect are trapped
+* Custom move - Sound Crash
+    * Fairy type special rollout
 
 ### Ryuka, Rymodel and Ryunit:
 * Mecha Kaiju (aka balancing nightmare)
