@@ -4,6 +4,8 @@ A minecraft data pack containing a collection of fan made pokemon. It's not real
 The resources for this pack are stored in the [assets repo](https://github.com/toBlanch/Purgamon-Assets)
 
 # Installation instructions
+Please note that the full functionality is only supported in Cobblemon 1.8+. For whatever reason Cobblemon silently allowed datapacks to use custom effects in 1.8, meaning some moves and abilities will not be fully functional in Cobblemon 1.7 and prior (e.g. Crystalline Snare, Deadlock Protocol, Cleave, Boulder Bash and probably many more)
+
 ## Install to a world / server
 Download the latest source code from the [releases](https://github.com/toBlanch/Purgamon/releases)
 * Extract the folder
