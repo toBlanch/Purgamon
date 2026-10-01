@@ -24,7 +24,7 @@
     name: "Sound Crash",
     pp: 20,
     priority: 0,
-    flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, failinstruct: 1, noparentalbond: 1 },
+    flags: { contact: 1, protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1, failinstruct: 1, noparentalbond: 1 },
     onModifyMove(move, pokemon, target) {
       if (pokemon.volatiles["soundcrash"] || pokemon.status === "slp" || !target)
         return;
